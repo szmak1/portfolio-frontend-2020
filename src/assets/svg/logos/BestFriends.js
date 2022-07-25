@@ -1,5 +1,5 @@
 import React from 'react';
-import Bk from '../logos/BestFriends';
+import Bk from '../../../images/bestfriends.png';
 
 const BestFriends = () => (
   <div className="">
