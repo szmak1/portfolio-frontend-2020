@@ -1,8 +1,8 @@
-import React from "react"
-import Card from "../../components/Card"
-import JointAcademy from "../../assets/svg/logos/JointAcademy"
-import GutsAndGlory from "../../assets/svg/logos/GutsAndGlory"
-import BestFriends from "../../assets/svg/logos/bestFriends"
+import React from 'react';
+import Card from '../../components/Card';
+import JointAcademy from '../../assets/svg/logos/JointAcademy';
+import GutsAndGlory from '../../assets/svg/logos/GutsAndGlory';
+// import BestFriends from "../../assets/svg/logos/bestFriends"
 
 const Experience = () => (
   <section id="experience" className="py-20 lg:pb-40 lg:pt-48">
@@ -15,9 +15,8 @@ const Experience = () => (
             <p className="font-semibold text-xl">Joint Academy</p>
             <p className="font-bold text-gray-700">2020 - now</p>
             <p className="mt-4 mb-12 text-left">
-              I work in a Marketing team in Joint Academy and the size of my
-              team is 12 colleges. My stacks are React/Gatsby, Storybook, PHP,
-              SASS, ACF and more.
+              I work in a Marketing team in Joint Academy and the size of my team is 12 colleges. My
+              stacks are React/Gatsby, Storybook, PHP, SASS, ACF and more.
             </p>
             <JointAcademy className="mt-8" />
           </Card>
@@ -28,11 +27,10 @@ const Experience = () => (
             <p className="font-semibold text-xl">Best Friends</p>
             <p className="font-bold text-gray-700">2018 - 2020</p>
             <p className="mt-4 mb-2 text-left">
-              At Best Friends I work a lot with Wordpress sites. I created a MVC
-              with webpack. Own developed theme wit Timber, twig, ACF and
-              Wordpress.
+              At Best Friends I work a lot with Wordpress sites. I created a MVC with webpack. Own
+              developed theme wit Timber, twig, ACF and Wordpress.
             </p>
-            <BestFriends />
+            {/* <BestFriends /> */}
           </Card>
         </div>
         <div className="flex-1 px-3">
@@ -41,9 +39,8 @@ const Experience = () => (
             <p className="font-semibold text-xl">Guts & Glory</p>
             <p className="font-bold text-gray-700">2017 - 2018</p>
             <p className="mt-4 mb-12 text-left">
-              I was an Intern two times at Guts & Glory. I learn a lot from an
-              Full-Stack Developer. Here I worked with Wordpress, PHP, jQuery,
-              SASS, ACF and more.
+              I was an Intern two times at Guts & Glory. I learn a lot from an Full-Stack Developer.
+              Here I worked with Wordpress, PHP, jQuery, SASS, ACF and more.
             </p>
             <GutsAndGlory />
           </Card>
@@ -51,6 +48,6 @@ const Experience = () => (
       </div>
     </div>
   </section>
-)
+);
 
-export default Experience
+export default Experience;
