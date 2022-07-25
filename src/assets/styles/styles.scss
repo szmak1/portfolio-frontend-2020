@@ -1,0 +1,33 @@
+@import "./scss/index.scss";
+body {
+    .wrapper {
+        max-width: 1280px;
+    }
+   
+}
+.skillbar-title {
+    
+    span {
+        display: flex;
+        justify-content: flex-end;
+       
+        
+        background: none!important;
+        
+    }
+}
+
+ .devi {
+   font-size: 43px;
+   
+  
+ 
+  
+}
+// .skillbar-bar  {
+    // border-top-left-radius: 0;
+    // border-bottom-left-radius: 0;
+// }
+.zdex {
+    z-index: -1!important;
+}
