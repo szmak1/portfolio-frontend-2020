@@ -2,7 +2,7 @@ import React from 'react';
 import Card from '../../components/Card';
 import JointAcademy from '../../assets/svg/logos/JointAcademy';
 import GutsAndGlory from '../../assets/svg/logos/GutsAndGlory';
-// import BestFriends from "../../assets/svg/logos/bestFriends"
+import BestFriends from '../../assets/svg/logos/BestFriends';
 
 const Experience = () => (
   <section id="experience" className="py-20 lg:pb-40 lg:pt-48">
@@ -30,7 +30,7 @@ const Experience = () => (
               At Best Friends I work a lot with Wordpress sites. I created a MVC with webpack. Own
               developed theme wit Timber, twig, ACF and Wordpress.
             </p>
-            {/* <BestFriends /> */}
+            <BestFriends />
           </Card>
         </div>
         <div className="flex-1 px-3">
