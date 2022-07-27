@@ -10,6 +10,7 @@ import DevSkills from '../components/DevSkills';
 import CodeIlu1 from '../assets/svg/code-ilu-1';
 import DjSzmak from '../assets/svg/logos/DjSzmak';
 import Testimonials from '../components/sections/Testimonials';
+import WorkProjects from '../components/sections/WorkProjects';
 
 const IndexPage = () => (
   <Layout>
@@ -93,6 +94,7 @@ const IndexPage = () => (
       }
     />
     <Testimonials />
+    <WorkProjects />
   </Layout>
 );
 
