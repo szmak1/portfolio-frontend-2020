@@ -22,6 +22,7 @@
     "react-devicon": "^0.1.9",
     "react-dom": "^18.1.0",
     "react-helmet": "^6.1.0",
+    "react-read-more-less": "^0.1.6",
     "react-skillbars": "^2.0.1",
     "sass": "^1.54.0"
   },
