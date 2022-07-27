@@ -40,9 +40,9 @@ const Experience = () => (
             <p className="font-bold text-gray-700">2017 - 2018</p>
             <p className="mt-4 mb-12 text-left">
               I was an Intern two times at Guts & Glory. I learn a lot from an Full-Stack Developer.
-              Here I worked with Wordpress, PHP, jQuery, SASS, ACF and more.
+              Here I worked with Wordpress, PHP, jQuery, SASS, ACF.
             </p>
-            <GutsAndGlory className="mb-0" />
+            <GutsAndGlory />
           </Card>
         </div>
       </div>
