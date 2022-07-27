@@ -1,4 +1,4 @@
-import React from "react"
+import React from 'react';
 
 const Education = () => {
   return (
@@ -8,10 +8,7 @@ const Education = () => {
       // style={{ backgroundColor: "var(--color-primary)" }}
     >
       <div className="px-12 py-32 align-center">
-        <h2 className="text-5xl font-semibold text-center text-white pb-12">
-          {" "}
-          Education
-        </h2>
+        <h2 className="text-5xl font-semibold text-center text-white pb-12"> Education</h2>
         <ol className="items-center sm:flex ">
           <li className="relative mb-6 sm:mb-0 w-1/3">
             <div className="flex items-center">
@@ -31,19 +28,13 @@ const Education = () => {
               </div>
               <div
                 className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"
-                style={{ borderTop: "8px solid #fff" }}
+                style={{ borderTop: '8px solid #fff' }}
               ></div>
             </div>
             <div className="mt-3 sm:pr-8 text-white">
-              <h3 className="mb-3 text-lg font-bold">
-                September 2001 - June 2002
-              </h3>
-              <time className="block text-lg font-bold leading-none">
-                HIGH SCHOOL
-              </time>
-              <p className="text-base font-bold">
-                Bitney Springs Charter in California, USA
-              </p>
+              <h3 className="mb-3 text-lg">September 2001 - June 2002</h3>
+              <time className="block text-lg leading-none">HIGH SCHOOL</time>
+              <p className="text-base">Bitney Springs Charter in California, USA</p>
             </div>
           </li>
           <li className="relative mb-6 sm:mb-0 w-1/3">
@@ -63,20 +54,14 @@ const Education = () => {
                 </svg>
               </div>
               <div
-                style={{ borderTop: "8px solid #fff" }}
+                style={{ borderTop: '8px solid #fff' }}
                 className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"
               ></div>
             </div>
             <div className="mt-3 sm:pr-8 text-white">
-              <h3 className="mb-3 text-lg font-bold">
-                September 2002 - June 2003
-              </h3>
-              <time className="block text-lg font-bold leading-none">
-                COMPUTER SCIENCE
-              </time>
-              <p className="text-base font-bold">
-                Auburn city college California, USA
-              </p>
+              <h3 className="mb-3 text-lg ">September 2002 - June 2003</h3>
+              <time className="block text-lg leading-none">COMPUTER SCIENCE</time>
+              <p className="text-base ">Auburn city college California, USA</p>
             </div>
           </li>
           <li className="relative mb-6 sm:mb-0 w-1/3">
@@ -96,19 +81,15 @@ const Education = () => {
                 </svg>
               </div>
               <div
-                style={{ borderTop: "8px solid #fff" }}
+                style={{ borderTop: '8px solid #fff' }}
                 className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"
               ></div>
             </div>
 
             <div className="mt-3 sm:pr-8 text-white">
-              <h3 className="mb-3 text-md font-bold ">
-                August 2016 - June 2018
-              </h3>
-              <time className="block text-lg font-bold leading-none">
-                YH-EDUCATION, 400 POINTS
-              </time>
-              <p className="text-base font-bold">Higher Vocational Education</p>
+              <h3 className="mb-3 text-md  ">August 2016 - June 2018</h3>
+              <time className="block text-lg leading-none">YH-EDUCATION, 400 POINTS</time>
+              <p className="text-base ">Higher Vocational Education</p>
             </div>
           </li>
           {/* <li className="relative mb-6 sm:mb-0 w-1/3">
@@ -147,7 +128,7 @@ const Education = () => {
         </ol>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Education
+export default Education;
