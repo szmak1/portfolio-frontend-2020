@@ -40,7 +40,7 @@ const Layout = ({ children }) => {
             fontSize: `var(--font-sm)`,
           }}
         >
-          © {new Date().getFullYear()} &middot; David Szmak
+          © {new Date().getFullYear()} &middot; David Szmak - Frontend Developer
         </footer>
       </div>
     </>
