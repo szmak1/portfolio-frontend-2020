@@ -12,13 +12,13 @@ const Experience = () => (
         <div className="flex-1 px-3">
           <Card className="mb-8 Cards">
             <h3 className="text-2xl mb-4">FRONT-END DEVELOPER</h3>
-            <p className="font-semibold text-xl mb-0">Joint Academy</p>
-            <p className="font-bold text-gray-700">2020 - now</p>
+            <p className="font-semibold text-xl mb-0">Guts & Glory</p>
+            <p className="font-bold text-gray-700">2017 - 2018</p>
             <p className="mt-4 mb-12 text-left">
-              I work in a Marketing team in Joint Academy and the size of my team is 12 colleges. My
-              stacks are React/Gatsby, Storybook, PHP, SASS, ACF and more.
+              I was an Intern two times at Guts & Glory. I learn a lot from an Full-Stack Developer.
+              Here I worked with Wordpress, PHP, jQuery, SASS, ACF.
             </p>
-            <JointAcademy className="mt-8" />
+            <GutsAndGlory />
           </Card>
         </div>
         <div className="flex-1 px-3">
@@ -36,13 +36,13 @@ const Experience = () => (
         <div className="flex-1 px-3">
           <Card className="mb-8 Cards">
             <h3 className="text-2xl mb-4">FRONT-END DEVELOPER</h3>
-            <p className="font-semibold text-xl mb-0">Guts & Glory</p>
-            <p className="font-bold text-gray-700">2017 - 2018</p>
+            <p className="font-semibold text-xl mb-0">Joint Academy</p>
+            <p className="font-bold text-gray-700">2020 - now</p>
             <p className="mt-4 mb-12 text-left">
-              I was an Intern two times at Guts & Glory. I learn a lot from an Full-Stack Developer.
-              Here I worked with Wordpress, PHP, jQuery, SASS, ACF.
+              I work in a Marketing team in Joint Academy and the size of my team is 12 colleges. My
+              stacks are React/Gatsby, Storybook, PHP, SASS, ACF and more.
             </p>
-            <GutsAndGlory />
+            <JointAcademy className="mt-8" />
           </Card>
         </div>
       </div>

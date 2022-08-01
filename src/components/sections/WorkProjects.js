@@ -5,12 +5,73 @@ import Devicon from '../Devicon';
 
 const WorkProjects = () => {
   return (
-    <section className="bg-white">
-      <div className="py-8 lg:py-16 mx-auto max-w-screen-xl px-4">
-        <h2 className="mb-8 lg:mb-16 text-3xl font-extrabold tracking-tight leading-tight text-center md:text-4xl">
-          Companies I have worked with
+    <section id="missions">
+      <div className="py-8 lg:pt-48 mx-auto max-w-screen-xl px-4">
+        <h2 className="mb-8 lg:mb-12 text-3xl font-extrabold tracking-tight leading-tight text-center md:text-4xl">
+          Previous missions
         </h2>
+        <div className="grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 md:grid-cols-3 lg:grid-cols-5 dark:text-gray-400 mb-8">
+          <a href="#" className="flex justify-center items-center">
+            <StaticImage
+              src="https://images.prismic.io/royaldesign/a89746e6520cd7b9b8876c00b9475aec554bc336_moccamaster_logo_bl.png?auto=compress,format"
+              alt="Malmö - David Szmak - Front End Developer"
+            />
+          </a>
+          <a href="#" className="flex justify-center items-center">
+            <StaticImage
+              src="https://www.malmosaluhall.se/wp-content/themes/gg/assets/img/logo.png"
+              alt="Malmö - David Szmak - Front End Developer"
+            />
+          </a>
+          <a href="#" className="flex justify-center items-center">
+            <StaticImage
+              src="https://www.jobreg.no/images/logos/290421014054_3896_d4b07ae8e63efd868860a7e255b2fe16ff56fb373063c2e67b6dad90958adf89501ee06be4bf5e8e33dea9.png"
+              alt="Malmö - David Szmak - Front End Developer"
+            />
+          </a>
+
+          <a href="#" className="flex justify-center items-center">
+            <StaticImage
+              src="http://beijerventures.se/wp-content/uploads/2022/03/doktor-2.png"
+              alt="Malmö - David Szmak - Front End Developer"
+            />
+          </a>
+          <a href="#" className="flex justify-center items-center">
+            <StaticImage
+              src="https://classicum.se/wp-content/uploads/2021/10/Classicum-logga.png"
+              alt="Malmö - David Szmak - Front End Developer"
+            />
+          </a>
+        </div>
         <div className="grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 md:grid-cols-2 lg:grid-cols-3 dark:text-gray-400">
+          <Card>
+            <div className="flex justify-center">
+              <StaticImage
+                width="62"
+                className=""
+                src="https://i.pinimg.com/originals/3b/df/27/3bdf2786f9bba30a6ff1376c81b76c89.png"
+                alt="Malmö - David Szmak - Front End Developer"
+              />
+            </div>
+            <div className="text-center ">
+              <p className="font-semibold text-sm mb-0 mt-2">mercedes-benz-malmo.se</p>
+              <p className="font-semibold text-sm  mb-2 mt-0">At Bästa Kompisar</p>
+              <p className="font-semibold text-gray-600 text-left mb-2">About:</p>
+              <p className="font-normal text-gray-700 text-left ">
+                I developed the whole site with a team at Bästa kompisar. This site was a big
+                project that took 5 month to develop.
+              </p>
+              <p className="font-semibold text-gray-700 mt-0 mb-2 text-left">Tech:</p>
+              <div className="flex justify-between mb-7 ">
+                <Devicon icon="devicon-wordpress-plain-wordmark colored" />
+                <Devicon icon="devicon-javascript-plain colored " />
+                <Devicon icon="devicon-php-plain " />
+                <Devicon icon="devicon-sass-original colored" />
+                <Devicon icon="devicon-jquery-plain-wordmark" />
+              </div>
+              <a href="https://mercedes-benz-malmo.se/">Visit website</a>
+            </div>
+          </Card>
           <Card>
             <div className="flex justify-center">
               <StaticImage
@@ -24,8 +85,8 @@ const WorkProjects = () => {
               <p className="font-semibold text-sm  mb-2 mt-0">Inhouse</p>
               <p className="font-semibold text-gray-600 text-left mb-2">About:</p>
               <p className="font-normal text-gray-700 text-left ">
-                I have worked with this site continuesly for 2 years. Adding new sections and
-                styles. Code envirement are: Wordpress, ACF, Php, Javascript & Sass
+                I have worked with this site continuesly for 2 years. I further develop thus
+                multisite by adding new sections and styles.
               </p>
               <p className="font-semibold text-gray-700 mt-0 mb-2 text-left">Tech:</p>
               <div className="flex justify-evenly mb-7">
@@ -65,34 +126,6 @@ const WorkProjects = () => {
               <a href="https://www.jointacademy.com/se/wp-content/uploads/sites/4/2019/06/joint_academy_logo_color@2x.png">
                 Visit website
               </a>
-            </div>
-          </Card>
-          <Card>
-            <div className="flex justify-center">
-              <StaticImage
-                width="52"
-                className=""
-                src="https://i.pinimg.com/originals/3b/df/27/3bdf2786f9bba30a6ff1376c81b76c89.png"
-                alt="Malmö - David Szmak - Front End Developer"
-              />
-            </div>
-            <div className="text-center ">
-              <p className="font-semibold text-sm mb-0 mt-2">mercedes-benz-malmo.se</p>
-              <p className="font-semibold text-sm  mb-2 mt-0">At Bästa Kompisar</p>
-              <p className="font-semibold text-gray-600 text-left mb-2">About:</p>
-              <p className="font-normal text-gray-700 text-left ">
-                I developed the whole site with my MVC. Code evirement are Wordpress, ACF, Twig,
-                Php, Sass
-              </p>
-              <p className="font-semibold text-gray-700 mt-0 mb-2 text-left">Tech:</p>
-              <div className="flex justify-between mb-7 ">
-                <Devicon icon="devicon-wordpress-plain-wordmark colored" />
-                <Devicon icon="devicon-javascript-plain colored " />
-                <Devicon icon="devicon-php-plain " />
-                <Devicon icon="devicon-sass-original colored" />
-                <Devicon icon="devicon-jquery-plain-wordmark" />
-              </div>
-              <a href="https://mercedes-benz-malmo.se/">Visit website</a>
             </div>
           </Card>
         </div>

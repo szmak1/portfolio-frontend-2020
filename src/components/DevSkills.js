@@ -1,6 +1,6 @@
-import React from "react"
-import SkillBar from "react-skillbars"
-import Devicon from "./Devicon"
+import React from 'react';
+import SkillBar from 'react-skillbars';
+import Devicon from './Devicon';
 
 const skills = [
   {
@@ -18,26 +18,27 @@ const skills = [
     level: 70,
   },
   { type: <Devicon icon="devicon-jquery-plain-wordmark colored" />, level: 90 },
-]
+];
 const colors = {
-  bar: "#3b82f6",
+  bar: '#3b82f6',
 
   title: {
-    text: "#000",
-    background: "#fff",
+    text: '#000',
+    background: '#fff',
   },
-}
+};
 
 const DevSkills = () => (
   <>
     <SkillBar
-      style={{ zIndex: "-1" }}
+      offset="200px"
+      style={{ zIndex: '-1' }}
       className="pr-4"
       skills={skills}
       colors={colors}
       height="42px"
     />
   </>
-)
+);
 
-export default DevSkills
+export default DevSkills;

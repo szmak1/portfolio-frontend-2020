@@ -11,21 +11,20 @@ const Testimonials = () => {
         </div>
         <div className="flex flex-col md:flex-row md:-mx-3">
           <div className="flex-1 px-3">
-            <Card className="mb-8 ">
-              <p className="text-xl font-semibold">Bästa Kompisar</p>
+            <Card className="mb-8">
+              <p className="text-xl font-semibold">Prylster</p>
               <p className="mt-6">
-                David was both competent and creative in his role as full-stack developer at Best
-                Friends. My warmest recommendations 👍
+                <ReadMoreReadLess />
               </p>
               <div className="flex items-center mt-8">
                 <img
                   className="w-12 h-12 mr-4 rounded-full"
-                  src="https://media-exp2.licdn.com/dms/image/C4E03AQGq9Hc2dhvihw/profile-displayphoto-shrink_100_100/0/1653467985743?e=1660176000&v=beta&t=LlQ7nDsQgbchUPOddseWj2mlR6mEbV9d84woGpw6Jrc"
-                  alt="Testimonial Bästa Kompisar"
+                  src="https://media-exp1.licdn.com/dms/image/C4E03AQHCj8nXVQ0PZA/profile-displayphoto-shrink_100_100/0/1526775571657?e=1664409600&v=beta&t=Do3WH6cCVDCBNhjj06gs1AJS3eayj-7dQjFH_PO698Q"
+                  alt="Testimonial Guts&Glory"
                 />
                 <div>
-                  <p className="mb-0">Ola Mohlin</p>
-                  <p className="text-sm text-gray-600">Owner</p>
+                  <p className="mb-0">Antonio Markovic</p>
+                  <p className="text-sm text-gray-600">Digital Marketing - Growth Hacker</p>
                 </div>
               </div>
             </Card>
@@ -49,21 +48,22 @@ const Testimonials = () => {
               </div>
             </Card>
           </div>
-          <div className="flex-1 px-3">
-            <Card className="mb-8">
-              <p className="text-xl font-semibold">Prylster</p>
+          <div className="flex-1 px-3 ">
+            <Card className="mb-8 ">
+              <p className="text-xl font-semibold">Bästa Kompisar</p>
               <p className="mt-6">
-                <ReadMoreReadLess />
+                David was both competent and creative in his role as full-stack developer at Best
+                Friends. My warmest recommendations 👍
               </p>
               <div className="flex items-center mt-8">
                 <img
                   className="w-12 h-12 mr-4 rounded-full"
-                  src="https://media-exp1.licdn.com/dms/image/C4E03AQHCj8nXVQ0PZA/profile-displayphoto-shrink_100_100/0/1526775571657?e=1664409600&v=beta&t=Do3WH6cCVDCBNhjj06gs1AJS3eayj-7dQjFH_PO698Q"
-                  alt="Testimonial Guts&Glory"
+                  src="https://media-exp2.licdn.com/dms/image/C4E03AQGq9Hc2dhvihw/profile-displayphoto-shrink_100_100/0/1653467985743?e=1660176000&v=beta&t=LlQ7nDsQgbchUPOddseWj2mlR6mEbV9d84woGpw6Jrc"
+                  alt="Testimonial Bästa Kompisar"
                 />
                 <div>
-                  <p className="mb-0">Antonio Markovic</p>
-                  <p className="text-sm text-gray-600">Digital Marketing - Growth Hacker</p>
+                  <p className="mb-0">Ola Mohlin</p>
+                  <p className="text-sm text-gray-600">Owner</p>
                 </div>
               </div>
             </Card>

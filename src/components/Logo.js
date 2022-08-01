@@ -1,15 +1,12 @@
 import React from 'react';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const Logo = () => (
   <div className="vessel">
     <div className="content__container">
-      <p className="content__container__text">David Szmak</p>
-      <ul className="content__container__list">
-        <li className="content__container__list__item">Code !</li>
-        <li className="content__container__list__item">Learn !</li>
-        <li className="content__container__list__item">Coffe !</li>
-        <li className="content__container__list__item">Repeat !</li>
-      </ul>
+      <p style={{ color: `var(--color-primary` }} className="content__container__text">
+        David Szmak
+      </p>
     </div>
   </div>
 );

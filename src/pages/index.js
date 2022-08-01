@@ -16,12 +16,14 @@ const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
     <Hero />
+    <WorkProjects />
     <Experience />
     <Education />
+    <Testimonials />
     <SplitSection
       id="skills"
       fixAlign="flex justify-end"
-      title="My Code skills"
+      title="Code skills"
       primarySlot={
         <div className="w-3/4 zdex">
           <DevSkills />
@@ -93,48 +95,6 @@ const IndexPage = () => (
         />
       }
     />
-    <Testimonials />
-    <WorkProjects />
-    <section className="bg-white">
-      <div className="py-8 lg:pt-0 lg:pb-16 mx-auto max-w-screen-xl px-4">
-        <h3 className="mb-4 lg:mb-12 text-3xl font-extrabold tracking-tight leading-tight text-center text-gray-900 md:text-3xl">
-          Other companies
-        </h3>
-        <div className="grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 md:grid-cols-3 lg:grid-cols-5 dark:text-gray-400">
-          <a href="#" className="flex justify-center items-center">
-            <StaticImage
-              src="https://images.prismic.io/royaldesign/a89746e6520cd7b9b8876c00b9475aec554bc336_moccamaster_logo_bl.png?auto=compress,format"
-              alt="Malmö - David Szmak - Front End Developer"
-            />
-          </a>
-          <a href="#" className="flex justify-center items-center">
-            <StaticImage
-              src="https://www.malmosaluhall.se/wp-content/themes/gg/assets/img/logo.png"
-              alt="Malmö - David Szmak - Front End Developer"
-            />
-          </a>
-          <a href="#" className="flex justify-center items-center">
-            <StaticImage
-              src="https://www.jobreg.no/images/logos/290421014054_3896_d4b07ae8e63efd868860a7e255b2fe16ff56fb373063c2e67b6dad90958adf89501ee06be4bf5e8e33dea9.png"
-              alt="Malmö - David Szmak - Front End Developer"
-            />
-          </a>
-
-          <a href="#" className="flex justify-center items-center">
-            <StaticImage
-              src="http://beijerventures.se/wp-content/uploads/2022/03/doktor-2.png"
-              alt="Malmö - David Szmak - Front End Developer"
-            />
-          </a>
-          <a href="#" className="flex justify-center items-center">
-            <StaticImage
-              src="https://classicum.se/wp-content/uploads/2021/10/Classicum-logga.png"
-              alt="Malmö - David Szmak - Front End Developer"
-            />
-          </a>
-        </div>
-      </div>
-    </section>
   </Layout>
 );
 
