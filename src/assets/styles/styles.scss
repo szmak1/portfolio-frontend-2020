@@ -1,28 +1,48 @@
 @import "./scss/index.scss";
+ // $breakpoint is the variable that can have several values
+ 
+//  $breakpoints: (
+//   'small'  : 767px,
+//   'medium' : 992px,
+//   'large'  : 1200px
+// );
+
+//  @mixin devices ($breakpoint) { //the name of the mixin is devices
+  
+//     @if $breakpoint == medium {    
+//     @media only screen and (max-width: 780px) {
+//       @content;
+//     }
+//   }
+ 
+//   @if $breakpoint == small {
+//     @media only screen and (max-width: 481px) {
+//       @content;
+//     }
+//   }
+//   @if $breakpoint == large {
+//     @media only screen and (max-width: 1200px) {
+//       @content;
+//     }
+//   }
+// }
+
+
 body {
     .wrapper {
         max-width: 1280px;
     }
-   
 }
 .skillbar-title {
-    
     span {
         display: flex;
         justify-content: flex-end;
-       
-        
-        background: none!important;
-        
+        background: none!important;  
     }
 }
 
  .devi {
-   font-size: 43px;
-   
-  
- 
-  
+   font-size: 43px;  
 }
 
 // .skillbar-bar  {

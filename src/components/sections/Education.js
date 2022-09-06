@@ -7,12 +7,12 @@ const Education = () => {
       className="container mx-auto bg-blue-500 rounded-lg mb-24"
       // style={{ backgroundColor: "var(--color-primary)" }}
     >
-      <div className="px-12 py-32 align-center">
+      <div className="px-8 md:px-12 py-14 md:py-32 align-center">
         <h2 className="text-5xl font-semibold text-center text-white pb-12"> Education</h2>
-        <ol className="items-center sm:flex ">
-          <li className="relative mb-6 sm:mb-0 w-1/3">
+        <ol className="items-center sm:flex mx-0">
+          <li className="relative mb-6 sm:mb-0 sm:w-1/1 md:w-1/3">
             <div className="flex items-center">
-              <div className="flex z-10 justify-center items-center w-12 h-12 rounded-full ring-0 ring-white  sm:ring-4 dark:ring-white shrink-0">
+              <div className="flex z-10 justify-start md:justify-center items-center w-12 h-12 rounded-full ring-0 ring-white  sm:ring-4 dark:ring-white shrink-0">
                 <svg
                   className="w-8 h-8"
                   fill="#fff"
@@ -37,9 +37,9 @@ const Education = () => {
               <p className="text-base">Bitney Springs Charter in California, USA</p>
             </div>
           </li>
-          <li className="relative mb-6 sm:mb-0 w-1/3">
+          <li className="relative mb-6 sm:mb-0 sm:w-1/1 md:w-1/3">
             <div className="flex items-center">
-              <div className="flex z-10 justify-center items-center w-12 h-12 rounded-full ring-0 ring-white  sm:ring-4 dark:ring-white shrink-0">
+              <div className="flex z-10 justify-start md:justify-center items-center w-12 h-12 rounded-full ring-0 ring-white  sm:ring-4 dark:ring-white shrink-0">
                 <svg
                   className="w-8 h-8"
                   fill="#fff"
@@ -64,9 +64,9 @@ const Education = () => {
               <p className="text-base ">Auburn city college California, USA</p>
             </div>
           </li>
-          <li className="relative mb-6 sm:mb-0 w-1/3">
+          <li className="relative mb-6 sm:mb-0 sm:w-1/1 md:w-1/3">
             <div className="flex items-center">
-              <div className="flex z-10 justify-center items-center w-12 h-12 rounded-full ring-0 ring-white  sm:ring-4 dark:ring-white shrink-0">
+              <div className="flex z-10 justify-start md:justify-center items-center w-12 h-12 rounded-full ring-0 ring-white  sm:ring-4 dark:ring-white shrink-0">
                 <svg
                   className="w-8 h-8"
                   fill="#fff"

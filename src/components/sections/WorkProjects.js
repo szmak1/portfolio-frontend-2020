@@ -6,7 +6,7 @@ import Devicon from '../Devicon';
 const WorkProjects = () => {
   return (
     <section id="missions">
-      <div className="py-8 lg:pt-48 mx-auto max-w-screen-xl px-4">
+      <div className="py-8 lg:pt-48 mx-auto max-w-screen-xl">
         <h2 className="mb-8 lg:mb-12 text-3xl font-extrabold tracking-tight leading-tight text-center md:text-4xl">
           Previous missions
         </h2>
@@ -30,12 +30,7 @@ const WorkProjects = () => {
             />
           </a>
 
-          <a href="#" className="flex justify-center items-center">
-            <StaticImage
-              src="http://beijerventures.se/wp-content/uploads/2022/03/doktor-2.png"
-              alt="Malmö - David Szmak - Front End Developer"
-            />
-          </a>
+
           <a href="#" className="flex justify-center items-center">
             <StaticImage
               src="https://classicum.se/wp-content/uploads/2021/10/Classicum-logga.png"
@@ -43,7 +38,8 @@ const WorkProjects = () => {
             />
           </a>
         </div>
-        <div className="grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 md:grid-cols-2 lg:grid-cols-3 dark:text-gray-400">
+        <div>
+        <div className="grid grid-cols-1 gap-8 text-gray-500 sm:gap-12 md:grid-cols-2 lg:grid-cols-3 dark:text-gray-400">
           <Card>
             <div className="flex justify-center">
               <StaticImage
@@ -128,6 +124,7 @@ const WorkProjects = () => {
               </a>
             </div>
           </Card>
+        </div>
         </div>
       </div>
     </section>

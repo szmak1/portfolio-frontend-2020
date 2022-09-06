@@ -33,7 +33,7 @@ const DevSkills = () => (
     <SkillBar
       offset="200px"
       style={{ zIndex: '-1' }}
-      className="pr-4"
+      className="md:pr-4"
       skills={skills}
       colors={colors}
       height="42px"

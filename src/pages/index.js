@@ -12,7 +12,9 @@ import DjSzmak from '../assets/svg/logos/DjSzmak';
 import Testimonials from '../components/sections/Testimonials';
 import WorkProjects from '../components/sections/WorkProjects';
 
+
 const IndexPage = () => (
+  
   <Layout>
     <Seo title="Home" />
     <Hero />
@@ -25,17 +27,18 @@ const IndexPage = () => (
       fixAlign="flex justify-end"
       title="Code skills"
       primarySlot={
-        <div className="w-3/4 zdex">
+        <div className="w-2/3 zdex">
           <DevSkills />
         </div>
       }
-      secondarySlot={<CodeIlu1 />}
+      secondarySlot={<div className="hidden md:block"><CodeIlu1 /></div>}
     />
+    
     <SplitSection
       id="about"
       title="About me"
       primarySlot={
-        <div className="md:pr-20">
+        <div className="pr-10 md:pr-20">
           <h3 className="text-3xl font-semibold leading-tight">Spain</h3>
           <p className="mt-8 text-xl font-light leading-relaxed text-justify">
             I was born in{' '}
@@ -60,7 +63,7 @@ const IndexPage = () => (
       fixAlign=""
       reverseOrder
       primarySlot={
-        <div className="">
+        <div className="pr-10 md:pr-20">
           <h3 className="text-3xl font-semibold leading-tight text-right">Sidekick job</h3>
           <p className="mt-8 text-xl font-light leading-relaxed text-justify">
             My first job was a DJ was in Spain and I still work as one here in Malmö, Sweden. In
@@ -71,14 +74,14 @@ const IndexPage = () => (
         </div>
       }
       secondarySlot={
-        <div className="float-left py-32 ">
+        <div className="float-left py-12 md:py-32">
           <DjSzmak />
         </div>
       }
     />
     <SplitSection
       primarySlot={
-        <div className="md:pr-20">
+        <div className="pr-10 md:pr-20">
           <h3 className="text-3xl font-semibold leading-tight">Malmö</h3>
           <p className="mt-8 text-xl font-light leading-relaxed text-justify">
             I live in Malmö togather with my family. In my free time I like to produce music, code

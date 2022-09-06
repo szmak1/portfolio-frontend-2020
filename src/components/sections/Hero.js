@@ -3,6 +3,8 @@ import { StaticImage } from 'gatsby-plugin-image';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Button from '@components/Button';
 import pdf from '../../assets/docs/cvDsEng.pdf';
+import AiTest from '../AiTest';
+
 
 const Hero = () => (
   <section id="hero" className="pt-8 md:pt-40">
@@ -12,8 +14,9 @@ const Hero = () => (
           Front-End Developer
         </h1>
         <h2 className="text-2xl lg:text-4xl xl:text-4xl font-bold text-gray-700">
-          4 years of code experiance
+        <AiTest />years of code experiance 
         </h2>
+        <div className="CodeHack"></div>
         <p className="text-xl lg:text-2xl mt-6 font-light">
           My future goals are to become a tech lead front-end developer. I want to work with
           React/Gatsby and Wordpress or other Headless CMS. I’m also interested to learn other
