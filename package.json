@@ -27,7 +27,8 @@
     "react-read-more-less": "^0.1.6",
     "react-skillbars": "^2.0.1",
     "sass": "^1.54.0",
-    "scrollmonitor-react": "^2.4.1"
+    "scrollmonitor-react": "^2.4.1",
+    "node": "^14.20.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.7",

@@ -57,7 +57,7 @@ const WorkProjects = () => {
   data-sal-delay="1000"
   data-sal-easing="ease-out-back">
             <StaticImage
-              width="78"
+              
               src="../../images/stc.png"
               alt="Malmö - David Szmak - Front End Developer"
             />
