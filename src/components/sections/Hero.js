@@ -3,7 +3,6 @@ import { StaticImage } from 'gatsby-plugin-image';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Button from '@components/Button';
 import pdf from '../../assets/docs/cvDsEng.pdf';
-import AiTest from '../AiTest';
 
 
 const Hero = () => (
@@ -14,7 +13,7 @@ const Hero = () => (
           Front-End Developer
         </h1>
         <h2 className="text-2xl lg:text-4xl xl:text-4xl font-bold text-gray-700">
-        <AiTest />years of code experiance 
+        4 years of code experiance 
         </h2>
         <div className="CodeHack"></div>
         <p className="text-xl lg:text-2xl mt-6 font-light">

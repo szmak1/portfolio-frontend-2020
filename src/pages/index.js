@@ -38,7 +38,7 @@ const IndexPage = () => (
       id="about"
       title="About me"
       primarySlot={
-        <div className="pr-10 md:pr-20">
+        <div className="md:pr-20">
           <h3 className="text-3xl font-semibold leading-tight">Spain</h3>
           <p className="mt-8 text-xl font-light leading-relaxed text-justify">
             I was born in{' '}
@@ -63,7 +63,7 @@ const IndexPage = () => (
       fixAlign=""
       reverseOrder
       primarySlot={
-        <div className="pr-10 md:pr-20">
+        <div className="">
           <h3 className="text-3xl font-semibold leading-tight text-right">Sidekick job</h3>
           <p className="mt-8 text-xl font-light leading-relaxed text-justify">
             My first job was a DJ was in Spain and I still work as one here in Malmö, Sweden. In
@@ -81,7 +81,7 @@ const IndexPage = () => (
     />
     <SplitSection
       primarySlot={
-        <div className="pr-10 md:pr-20">
+        <div className="md:pr-20">
           <h3 className="text-3xl font-semibold leading-tight">Malmö</h3>
           <p className="mt-8 text-xl font-light leading-relaxed text-justify">
             I live in Malmö togather with my family. In my free time I like to produce music, code

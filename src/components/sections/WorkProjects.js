@@ -10,7 +10,7 @@ const WorkProjects = () => {
         <h2 className="mb-8 lg:mb-12 text-3xl font-extrabold tracking-tight leading-tight text-center md:text-4xl">
           Previous missions
         </h2>
-        <div className="grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 md:grid-cols-3 lg:grid-cols-5 dark:text-gray-400 mb-8">
+        <div className="grid grid-cols-3 md:grid-cols-2 gap-8 text-gray-500 sm:gap-12 md:grid-cols-3 lg:grid-cols-6 dark:text-gray-400 mb-8">
           <a href="#" className="flex justify-center items-center">
             <StaticImage
               src="https://images.prismic.io/royaldesign/a89746e6520cd7b9b8876c00b9475aec554bc336_moccamaster_logo_bl.png?auto=compress,format"
@@ -37,6 +37,20 @@ const WorkProjects = () => {
               alt="Malmö - David Szmak - Front End Developer"
             />
           </a>
+          <a href="#" className="flex justify-center items-center">
+            <StaticImage
+              src="https://www.pineberry.com/wp-content/uploads/2021/09/doktorse-logo-600-colour-rgb.png"
+              alt="Malmö - David Szmak - Front End Developer"
+            />
+          </a>
+          <a href="#" className="flex justify-center items-center">
+            <StaticImage
+              width="78"
+              src="../../images/stc.png"
+              alt="Malmö - David Szmak - Front End Developer"
+            />
+          </a>
+          
         </div>
         <div>
         <div className="grid grid-cols-1 gap-8 text-gray-500 sm:gap-12 md:grid-cols-2 lg:grid-cols-3 dark:text-gray-400">
@@ -65,7 +79,7 @@ const WorkProjects = () => {
                 <Devicon icon="devicon-sass-original colored" />
                 <Devicon icon="devicon-jquery-plain-wordmark" />
               </div>
-              <a href="https://mercedes-benz-malmo.se/">Visit website</a>
+              <a href="https://mercedes-benz-malmo.se/" target="blank">Visit website</a>
             </div>
           </Card>
           <Card>
@@ -91,7 +105,7 @@ const WorkProjects = () => {
                 <Devicon icon="devicon-amazonwebservices-plain-wordmark colored" />
                 <Devicon icon="devicon-jquery-plain-wordmark colored" />
               </div>
-              <a href="https://www.jointacademy.com/se/wp-content/uploads/sites/4/2019/06/joint_academy_logo_color@2x.png">
+              <a href="https://www.jointacademy.com/" target="blank">
                 Visit website
               </a>
             </div>
@@ -119,7 +133,7 @@ const WorkProjects = () => {
                 <Devicon icon="devicon-sass-original colored" />
                 <Devicon icon="devicon-storybook-plain colored" />
               </div>
-              <a href="https://www.jointacademy.com/se/wp-content/uploads/sites/4/2019/06/joint_academy_logo_color@2x.png">
+              <a href="https://site.jointacademy.com/doktorse/" target="blank">
                 Visit website
               </a>
             </div>
