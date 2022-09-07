@@ -31,7 +31,9 @@ const Education = () => {
                 style={{ borderTop: '4px solid #fff' }}
               ></div>
             </div>
-            <div className="mt-3 sm:pr-8 text-white">
+            <div className="mt-3 sm:pr-8 text-white" data-sal="slide-up"
+  data-sal-delay="300"
+  data-sal-easing="ease-out-back">
               <h3 className="mb-3 text-lg">September 2001 - June 2002</h3>
               <time className="block text-lg leading-none">HIGH SCHOOL</time>
               <p className="text-base">Bitney Springs Charter in California, USA</p>
@@ -58,7 +60,9 @@ const Education = () => {
                 className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"
               ></div>
             </div>
-            <div className="mt-3 sm:pr-8 text-white">
+            <div className="mt-3 sm:pr-8 text-white" data-sal="slide-up"
+  data-sal-delay="600"
+  data-sal-easing="ease-out-back">
               <h3 className="mb-3 text-lg ">September 2002 - June 2003</h3>
               <time className="block text-lg leading-none">COMPUTER SCIENCE</time>
               <p className="text-base ">Auburn city college California, USA</p>
@@ -86,7 +90,9 @@ const Education = () => {
               ></div>
             </div>
 
-            <div className="mt-3 sm:pr-8 text-white">
+            <div className="mt-3 sm:pr-8 text-white" data-sal="slide-up"
+  data-sal-delay="900"
+  data-sal-easing="ease-out-back">
               <h3 className="mb-3 text-md  ">August 2016 - June 2018</h3>
               <time className="block text-lg leading-none">YH-EDUCATION, 400 POINTS</time>
               <p className="text-base ">Higher Vocational Education</p>

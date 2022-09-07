@@ -6,9 +6,11 @@ import pdf from '../../assets/docs/cvDsEng.pdf';
 
 
 const Hero = () => (
-  <section id="hero" className="pt-8 md:pt-40">
-    <div className="container mx-auto lg:flex justify-between">
-      <div className="text-center lg:text-left lg:w-1/2 ">
+  <section id="hero" className="pt-8 md:pt-40" >
+    <div className="container mx-auto lg:flex justify-between" >
+      <div className="text-center lg:text-left lg:w-1/2 " data-sal="zoom-in"
+  data-sal-delay="300"
+  data-sal-easing="ease-out-back">
         <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
           Front-End Developer
         </h1>
@@ -36,7 +38,9 @@ const Hero = () => (
           </a>
         </div>
       </div>
-      <div style={{ zIndex: -1 }} className="flex flex-wrap flex-center lg:w-1/3">
+      <div style={{ zIndex: -1 }} className="flex flex-wrap flex-center lg:w-1/3" data-sal="zoom-in"
+  data-sal-delay="300"
+  data-sal-easing="ease-out-back">
         <StaticImage
           quality={100}
           placeholder="blurred"
