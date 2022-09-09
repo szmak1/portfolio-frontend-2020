@@ -9,9 +9,7 @@ const Experience = () => (
     <div className="container mx-auto text-center">
       <h2 className="text-3xl lg:text-5xl font-semibold">Experience</h2>
       <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
-        <div className="flex-1 md:px-3"data-sal="slide-up"
-  data-sal-delay="300"
-  data-sal-easing="ease-out-back">
+        <div className="flex-1 md:px-3">
           <Card className="mb-8 Cards">
             <h3 className="text-2xl mb-4">FRONT-END DEVELOPER</h3>
             <p className="font-semibold text-xl mb-0">Guts & Glory</p>
@@ -23,9 +21,7 @@ const Experience = () => (
             <GutsAndGlory />
           </Card>
         </div>
-        <div className="flex-1 md:px-3" data-sal="slide-up"
-  data-sal-delay="600"
-  data-sal-easing="ease-out-back">
+        <div className="flex-1 md:px-3">
           <Card className="mb-8 Cards">
             <h3 className="text-2xl mb-4">FULL-STACK DEVELOPER</h3>
             <p className="font-semibold text-xl mb-0">Best Friends</p>
@@ -37,9 +33,7 @@ const Experience = () => (
             <BestFriends />
           </Card>
         </div>
-        <div className="flex-1 md:px-3" data-sal="slide-up"
-  data-sal-delay="900"
-  data-sal-easing="ease-out-back">
+        <div className="flex-1 md:px-3">
           <Card className="mb-8 Cards">
             <h3 className="text-2xl mb-4">FRONT-END DEVELOPER</h3>
             <p className="font-semibold text-xl mb-0">Joint Academy</p>

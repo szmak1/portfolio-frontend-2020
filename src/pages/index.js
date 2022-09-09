@@ -38,7 +38,7 @@ const IndexPage = () => (
       id="about"
       title="About me"
       primarySlot={
-        <div className="md:pr-20" data-sal="slide-right" data-sal-duration="1200">
+        <div className="md:pr-20">
           <h3 className="text-3xl font-semibold leading-tight">Spain</h3>
           <p className="mt-8 text-xl font-light leading-relaxed text-justify">
             I was born in{' '}
@@ -51,7 +51,7 @@ const IndexPage = () => (
         </div>
       }
       secondarySlot={
-        <div data-sal="slide-left" data-sal-duration="800">
+        <div>
         <StaticImage
           style={{ zIndex: -1 }}
           className="flex justify-center shadow-lg object-contain object-cover rounded align-middle border-none float-right "
@@ -65,7 +65,7 @@ const IndexPage = () => (
       fixAlign=""
       reverseOrder
       primarySlot={
-        <div className="" data-sal="slide-left" data-sal-duration="1200">
+        <div>
           <h3 className="text-3xl font-semibold leading-tight text-right">Sidekick job</h3>
           <p className="mt-8 text-xl font-light leading-relaxed text-justify">
             My first job was a DJ was in Spain and I still work as one here in Malmö, Sweden. In
@@ -76,14 +76,14 @@ const IndexPage = () => (
         </div>
       }
       secondarySlot={
-        <div className="float-left py-12 md:py-32" data-sal="slide-right" data-sal-duration="800">
+        <div className="float-left py-12 md:py-32" >
           <DjSzmak />
         </div>
       }
     />
     <SplitSection
       primarySlot={
-        <div className="md:pr-20" data-sal="slide-right" data-sal-duration="1200">
+        <div className="md:pr-20">
           <h3 className="text-3xl font-semibold leading-tight">Malmö</h3>
           <p className="mt-8 text-xl font-light leading-relaxed text-justify">
             I live in Malmö togather with my family. In my free time I like to produce music, code
@@ -92,7 +92,7 @@ const IndexPage = () => (
         </div>
       }
       secondarySlot={
-        <div data-sal="slide-left" data-sal-duration="800">
+        <div>
         <StaticImage
           style={{ zIndex: -1 }}
           className="flex justify-center shadow-lg object-contain object-cover rounded align-middle border-none float-right "

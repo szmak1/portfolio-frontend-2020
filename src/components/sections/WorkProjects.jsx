@@ -11,25 +11,19 @@ const WorkProjects = () => {
           Previous missions
         </h2>
         <div className="grid grid-cols-3 md:grid-cols-2 gap-8 text-gray-500 sm:gap-12 md:grid-cols-3 lg:grid-cols-6 dark:text-gray-400 mb-8">
-          <a href="#" className="flex justify-center items-center" data-sal="zoom-in"
-  data-sal-delay="1"
-  data-sal-easing="ease-out-back">
+          <a href="#" className="flex justify-center items-center">
             <StaticImage
               src="https://images.prismic.io/royaldesign/a89746e6520cd7b9b8876c00b9475aec554bc336_moccamaster_logo_bl.png?auto=compress,format"
               alt="Malmö - David Szmak - Front End Developer"
             />
           </a>
-          <a href="#" className="flex justify-center items-center" data-sal="zoom-in"
-  data-sal-delay="200"
-  data-sal-easing="ease-out-back">
+          <a href="#" className="flex justify-center items-center" >
             <StaticImage
               src="https://www.malmosaluhall.se/wp-content/themes/gg/assets/img/logo.png"
               alt="Malmö - David Szmak - Front End Developer"
             />
           </a>
-          <a href="#" className="flex justify-center items-center " data-sal="zoom-in"
-  data-sal-delay="400"
-  data-sal-easing="ease-out-back">
+          <a href="#" className="flex justify-center items-center ">
             <StaticImage
               src="https://www.jobreg.no/images/logos/290421014054_3896_d4b07ae8e63efd868860a7e255b2fe16ff56fb373063c2e67b6dad90958adf89501ee06be4bf5e8e33dea9.png"
               alt="Malmö - David Szmak - Front End Developer"
@@ -37,25 +31,19 @@ const WorkProjects = () => {
           </a>
 
 
-          <a href="#" className="flex justify-center items-center" data-sal="zoom-in"
-  data-sal-delay="600"
-  data-sal-easing="ease-out-back">
+          <a href="#" className="flex justify-center items-center">
             <StaticImage
               src="https://classicum.se/wp-content/uploads/2021/10/Classicum-logga.png"
               alt="Malmö - David Szmak - Front End Developer"
             />
           </a>
-          <a href="#" className="flex justify-center items-center" data-sal="zoom-in"
-  data-sal-delay="800"
-  data-sal-easing="ease-out-back">
+          <a href="#" className="flex justify-center items-center">
             <StaticImage
               src="https://www.pineberry.com/wp-content/uploads/2021/09/doktorse-logo-600-colour-rgb.png"
               alt="Malmö - David Szmak - Front End Developer"
             />
           </a>
-          <a href="#" className="flex justify-center items-center" data-sal="zoom-in"
-  data-sal-delay="1000"
-  data-sal-easing="ease-out-back">
+          <a href="#" className="flex justify-center items-center">
             <StaticImage
               
               src="../../images/stc.png"
@@ -66,9 +54,7 @@ const WorkProjects = () => {
         </div>
         <div>
         <div className="grid grid-cols-1 gap-8 text-gray-500 sm:gap-12 md:grid-cols-2 lg:grid-cols-3 dark:text-gray-400" >
-          <div data-sal="zoom-in"
-  data-sal-delay="300"
-  data-sal-easing="ease-out"><Card>
+          <div><Card>
             <div className="flex justify-center">
               <StaticImage
                 width="62"
@@ -96,9 +82,7 @@ const WorkProjects = () => {
               <a href="https://mercedes-benz-malmo.se/" target="blank">Visit website</a>
             </div>
           </Card></div>
-          <div data-sal="zoom-in"
-  data-sal-delay="600"
-  data-sal-easing="ease-out"><Card >
+          <div><Card >
             <div className="flex justify-center">
               <StaticImage
                 className=""
@@ -126,9 +110,7 @@ const WorkProjects = () => {
               </a>
             </div>
           </Card></div>
-          <div data-sal="zoom-in"
-  data-sal-delay="900"
-  data-sal-easing="ease-out">
+          <div>
           <Card >
             <div className="flex justify-center">
               <StaticImage

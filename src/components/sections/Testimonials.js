@@ -10,9 +10,7 @@ const Testimonials = () => {
           <h2 className="text-3xl lg:text-5xl font-semibold mb-12">Testimonials</h2>
         </div>
         <div className="flex flex-col md:flex-row md:-mx-3">
-          <div className="flex-1 md:px-3" data-sal="slide-up"
-  data-sal-delay="300"
-  data-sal-easing="ease-out-back">
+          <div className="flex-1 md:px-3">
             <Card className="mb-8">
               <p className="text-xl font-semibold">Prylster</p>
               <p className="mt-6">
@@ -31,9 +29,7 @@ const Testimonials = () => {
               </div>
             </Card>
           </div>
-          <div className="flex-1 md:px-3" data-sal="slide-up"
-  data-sal-delay="600"
-  data-sal-easing="ease-out-back">
+          <div className="flex-1 md:px-3">
             <Card className="mb-8">
               <p className="text-xl font-semibold">Guts&Glory</p>
               <p className="mt-6">
@@ -52,9 +48,7 @@ const Testimonials = () => {
               </div>
             </Card>
           </div>
-          <div className="flex-1 md:px-3" data-sal="slide-up"
-  data-sal-delay="900"
-  data-sal-easing="ease-out-back">
+          <div className="flex-1 md:px-3">
             <Card className="mb-8 ">
               <p className="text-xl font-semibold">Bästa Kompisar</p>
               <p className="mt-6">
